@@ -1,0 +1,8 @@
+. Foi almentado o numero de requisitos, antes estava em 31 agora está em 41
+. Foi almentado a quantidade de testes, antes estava 304 agora está 401
+. Foi feito a dedscrição das tecnicas utilizadas, as mesmas estão no arquivo tecnicas_usadas.txt
+
+
+ . OBS você deve está no diretorio raiz "campo_minado_final"
+    o comando para rodar os testes no terminal são: python -m unittest -v
+    

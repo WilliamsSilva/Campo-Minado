@@ -1,0 +1,12 @@
+Clásse Equivalencia: Todos os arquivos de testes tiveram foram separados de acordo com a classe equivalencia;
+
+Arquivos dos testes usado Caixa preta:
+    Test_imprimir_tabuleiro_minado
+    Test_imprimir_tabuleiro_usuario
+    Test_criar_tabuleiro_minado
+    Test_criar_tabuleiro_uruario
+
+Arquivos dos testes usado a técnica de limite:
+    Test_contar_bombas_ao_redor_8x8
+    Test_contar_bombas_ao_redor_10x16
+    Test_contar_bombas_ao_redor_24x24

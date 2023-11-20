@@ -1316,7 +1316,10 @@ class TestTabuleiroMinado(unittest.TestCase):
         self.assertEqual(tabuleiro_minado.contar_bombas_ao_redor(tabuleiro, 4, 4), 8)
 
 
-    
+
+
+#2 bombas
+
 if __name__ == '__main__':
     unittest.main()
 

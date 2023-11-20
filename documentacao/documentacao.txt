@@ -1,5 +1,5 @@
 ARQUIVO CRIAR_TEBULEIRO_USUARIO
-Método: test_criar_tabuleiro_facil
+Método: test_criar_tabuleiro_usuário_facil
 Descrição: O teste verifica se a criação de um tabuleiro de jogo no nível de dificuldade "fácil" é realizada corretamente.
            O tabuleiro é representado por uma matriz quadrada 8x8, e deve conter um total de 10 bombas distribuídas aleatoriamente.
            O método cria uma instância da classe Tabuleiro_usuario com as dimensões 8x8 e 10 bombas e verifica se o tabuleiro foi geradcorretamente de acordo com essas especificações.
@@ -8,7 +8,7 @@ Requisitos:O tabuleiro deve ser criado com uma dimensão de 8x8, ou seja, deve c
            Cada célula do tabuleiro deve inicialmente conter o caractere '[?]' para representar que a célula está oculta.
 
 
-Método: test_criar_tabuleiro_intermediario
+Método: test_criar_tabuleiro_usuario_intermediario
 Descrição: O teste verifica se a criação de um tabuleiro de jogo no nível de dificuldade "intermediario" é realizada corretamente.
            O tabuleiro é representado por uma matriz quadrada 10x16, e deve conter um total de 30 bombas distribuídas aleatoriamente.
            O método cria uma instância da classe Tabuleiro_usuario com as dimensões 10x16 e 30 bombas e verifica se o tabuleiro foi geradcorretamente de acordo com essas especificações.
@@ -17,7 +17,34 @@ Requisitos:O tabuleiro deve ser criado com uma dimensão de 10x16, ou seja, deve
            Cada célula do tabuleiro deve inicialmente conter o caractere '[?]' para representar que a célula está oculta.
 
 
-Método: test_criar_tabuleiro_dificil
+Método: test_criar_tabuleiro_usuario_dificil
+Descrição: O teste verifica se a criação de um tabuleiro de jogo no nível de dificuldade "dificil" é realizada corretamente.
+           O tabuleiro é representado por uma matriz quadrada 24x24, e deve conter um total de 100 bombas distribuídas aleatoriamente.
+           O método cria uma instância da classe Tabuleiro_usuario com as dimensões 24x24 e 100 bombas e verifica se o tabuleiro foi geradcorretamente de acordo com essas especificações.
+Requisitos:O tabuleiro deve ser criado com uma dimensão de 8x8, ou seja, deve conter 24 linhas e 24 colunas.
+           Deve haver exatamente 100 bombas no tabuleiro, distribuídas aleatoriamente.
+           Cada célula do tabuleiro deve inicialmente conter o caractere '[?]' para representar que a célula está oculta.
+
+ARQUIVO CRIAR_TEBULEIRO_MINADO
+Método: test_criar_tabuleiro_minado_facil
+Descrição: O teste verifica se a criação de um tabuleiro de jogo no nível de dificuldade "fácil" é realizada corretamente.
+           O tabuleiro é representado por uma matriz quadrada 8x8, e deve conter um total de 10 bombas distribuídas aleatoriamente.
+           O método cria uma instância da classe Tabuleiro_usuario com as dimensões 8x8 e 10 bombas e verifica se o tabuleiro foi geradcorretamente de acordo com essas especificações.
+Requisitos:O tabuleiro deve ser criado com uma dimensão de 8x8, ou seja, deve conter 8 linhas e 8 colunas.
+           Deve haver exatamente 10 bombas no tabuleiro, distribuídas aleatoriamente.
+           Cada célula do tabuleiro deve inicialmente conter o caractere '[?]' para representar que a célula está oculta.
+
+
+Método: test_criar_tabuleiro_minado_intermediario
+Descrição: O teste verifica se a criação de um tabuleiro de jogo no nível de dificuldade "intermediario" é realizada corretamente.
+           O tabuleiro é representado por uma matriz quadrada 10x16, e deve conter um total de 30 bombas distribuídas aleatoriamente.
+           O método cria uma instância da classe Tabuleiro_usuario com as dimensões 10x16 e 30 bombas e verifica se o tabuleiro foi geradcorretamente de acordo com essas especificações.
+Requisitos:O tabuleiro deve ser criado com uma dimensão de 10x16, ou seja, deve conter 10 linhas e 16 colunas.
+           Deve haver exatamente 30 bombas no tabuleiro, distribuídas aleatoriamente.
+           Cada célula do tabuleiro deve inicialmente conter o caractere '[?]' para representar que a célula está oculta.
+
+
+Método: test_criar_tabuleiro_minado_minado_dificil
 Descrição: O teste verifica se a criação de um tabuleiro de jogo no nível de dificuldade "dificil" é realizada corretamente.
            O tabuleiro é representado por uma matriz quadrada 24x24, e deve conter um total de 100 bombas distribuídas aleatoriamente.
            O método cria uma instância da classe Tabuleiro_usuario com as dimensões 24x24 e 100 bombas e verifica se o tabuleiro foi geradcorretamente de acordo com essas especificações.
